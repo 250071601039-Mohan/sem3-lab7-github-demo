@@ -4,8 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "toc_visible": true,
-      "authorship_tag": "ABX9TyOrYZvLngQ37VCbG54IMjfS",
+      "authorship_tag": "ABX9TyN+mLDrhiJZXDA6hDOD3W3K",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -52,9 +51,81 @@
     },
     {
       "cell_type": "code",
+      "source": [
+        "name = \"Your Name\"\n",
+        "print(f\"Hello, {name}! This is version 2 of my notebook.\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "c4FndVGJp8qX",
+        "outputId": "01c862f5-c644-4ddc-92e2-6c787c1f80a4"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello, Your Name! This is version 2 of my notebook.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "age = 20\n",
+        "print(f\"My age is {age}, type: {type(age)}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "occVMX2fzRYg",
+        "outputId": "df215235-fa00-4a1a-a016-372a886407c5"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "My age is 20, type: <class 'int'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "cgpa = 8.5\n",
+        "print(f\"My CGPA is {cgpa}, type: {type(cgpa)}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-8V0z5QXznw2",
+        "outputId": "60a58c76-b5ae-42a5-bf06-918f2317ba49"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "My CGPA is 8.5, type: <class 'float'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
       "source": [],
       "metadata": {
-        "id": "c4FndVGJp8qX"
+        "id": "YeRqrF4UztOe"
       },
       "execution_count": null,
       "outputs": []
