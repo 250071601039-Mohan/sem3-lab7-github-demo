@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyN+mLDrhiJZXDA6hDOD3W3K",
+      "authorship_tag": "ABX9TyOhvZNLpILpAZRd4jOBu5ef",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -123,9 +123,36 @@
     },
     {
       "cell_type": "code",
+      "source": [
+        "marks1 = 85\n",
+        "marks2 = 90\n",
+        "total = marks1 + marks2\n",
+        "average = total / 2\n",
+        "print(f\"Total: {total}, Average: {average}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YeRqrF4UztOe",
+        "outputId": "79af3387-0a43-4299-be58-fe5c190e310c"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Total: 175, Average: 87.5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
       "source": [],
       "metadata": {
-        "id": "YeRqrF4UztOe"
+        "id": "0qlprSvW1Ebp"
       },
       "execution_count": null,
       "outputs": []
