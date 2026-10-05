@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyMx1FnkLZSJrAm24Hi9MsGm",
+      "authorship_tag": "ABX9TyOKnJLuI2x5C2gwxwDVHk21",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -175,9 +175,36 @@
     },
     {
       "cell_type": "code",
+      "source": [
+        "subjects = [\"Python\", \"AI Foundations\", \"Version Control\"]\n",
+        "for subject in subjects:\n",
+        "    print(f\"Subject: {subject}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vWRFFm8S1X-e",
+        "outputId": "6613e638-8d58-4e8c-9b44-26d042e477d1"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Subject: Python\n",
+            "Subject: AI Foundations\n",
+            "Subject: Version Control\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
       "source": [],
       "metadata": {
-        "id": "vWRFFm8S1X-e"
+        "id": "iTxX8imO1kU-"
       },
       "execution_count": null,
       "outputs": []
